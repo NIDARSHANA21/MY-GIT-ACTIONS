@@ -1,0 +1,32 @@
+Introduction to Machine Learning and Data Preparation
+
+Decision trees are one of the simplest and easiest methods in machine learning. They help us collect data, analyze patterns, and make predictions accordingly. A decision tree is a type of machine learning algorithm that classifies data into categories, making it an easy-to-understand entry point for beginners. For example, by drawing a black line to separate two groups of data points, we can predict which category a new data point might fall into. This simple demonstration gives a clear idea of machine learning: it is mainly about making predictions and classifications.
+
+In machine learning, the original data used to build a model is called training data. To evaluate the performance of the model, we use testing data. Predictions are made using this testing data, and the black line (or decision boundary) helps visualize how the model classifies data. Two important ideas in machine learning are:
+
+1. Testing data is used to evaluate the accuracy of ML methods
+
+2. Training data should not be directly used for predictions, because the model may overfit, leading to poor results.
+
+
+
+This problem is known as the bias-variance tradeoff. To address this, we compare different ML methods and decide which fits the data best using testing data.
+
+Data Preparation for Machine Learning
+
+Before building any machine learning model, data must be carefully prepared. A proper training dataset is essential for making reliable predictions and classifications. The quality of predictions depends strongly on how well the data is processed. Data preparation involves several steps:
+
+1. Labeling – assigning categories or target values to data.
+
+
+2. Reduction and Cleansing – removing irrelevant information, dimensional reduction, sampling, and cleaning noisy data.
+
+
+3. Data Wrangling – formatting, normalization, and handling missing values.
+
+
+4. Feature Engineering – creating new features or variables that improve model performance.
+
+
+
+In short, machine learning is built on well-prepared data, proper use of training and testing sets, and evaluating models to achieve accurate predictions.
